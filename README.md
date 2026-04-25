@@ -1,15 +1,26 @@
-# Student Performance Analysis
+# Student_Performance_Analysis
 
-This repository focuses on data cleaning and visualization of student performance data.
+We started working on data of 12000 students from different schools in the same area. We worked on 12 columns with the pivot one being average score.
 
 ## Data Cleaning
 
-The data cleaning process involves removing duplicates, handling missing values, and ensuring the consistency of data entries. This is crucial for reliable analysis and visualization.
+We started by cleaning using pandas, showing the missing values and replacing or removing columns if the error is high. Using functions like dropna() and get() which were new to our knowledge.
 
 ## Data Visualization
 
-Data visualization showcases the performance trends and patterns through various graphical representations. The goal is to provide insights into how different factors affect student performance. 
+We used matplotlib, seaborn, and mainly plotly used occasionally. We made 7 charts representing:
+- The effect of the test preparation course
+- Comparing male and female based on average score
+- Comparing the 4 categories we have in parental education showing if it reflects on the score of the students
+- Effect of food on the level of the student
+- If there is a bias in the average score or not
+- Math score based on age showing the evolving of the mentality and its reflect on studying subjects like math
+- (7th chart details)
 
-## Conclusion
+## Team Members
 
-This repository provides the necessary steps and code examples for effective data cleaning and visualization, enabling deeper understanding and insights into student performance data.
+- Ahmed Mohsen Mahmoud (Team Leader)
+- Ahmed Hany Shawky
+- Efraim George
+- Emmanuel George
+- Abdallah Mahmoud
